@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador</title>
+    <style>
+       
+        /*Encabezado*/
+        header {
+            background-color: rgb(220, 176, 228);
+            padding: 1px;
+            text-align: center;
+            font-size: 28px;
+            color: rgb(0, 0, 0);
+        }
+
+        /*Pie de página*/
+        footer {
+            background-color: rgb(217, 255, 127);
+            padding: 15px;
+            text-align: center;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <!--Encabezado-->
+    <header>
+        <h1>Sweet Cake</h1>
+        <h4>¡Atrevete a probar los mejores pasteles de México!</h4>
+        <h4>¡Arma el tuyo!</h4>
+    </header>
+    <br>
+    <hr size="2px" color="black">
+    <h2 align="center">Inventario</h2><br>
+    <table border="1" align="center" style="width:auto; height:20px">
+        <th>Ingredientes</th>
+        <th>Añadir ingredientes (piezas)</th>
+        <th>En Inventario (piezas)</th>
+        
+        <tr>
+            <td>Oreo</td>
+            <td><input type="number" id="oreo" name="oreo" placeholder="kg"></td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>Crunch</td>
+            <td><input type="number" id="cr" name="cr" placeholder="kg"></td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>Carlos V</td>
+            <td><input type="number" id="cv" name="cv" placeholder="kg"></td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>Cajeta</td>
+            <td><input type="number" id="caj" name="caj" placeholder="kg"></td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>Nesquik</td>
+            <td><input type="number" id="nk" name="nk" placeholder="kg"></td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>Chocolate abuelita</td>
+            <td><input type="number" id="choc" name="choc" placeholder="kg"></td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>Vainilla</td>
+            <td><input type="number" id="va" name="va" placeholder="kg"></td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Tres leches</td>
+            <td><input type="number" id="tres" name="tres" placeholder="kg"></td>
+            <td>11</td>
+        </tr>
+    </table>
+    <br><br>
+    <hr size="2px" color="black">
+    <h2 align="center">Pasteles por entregar</h2>
+    <table border="1" align="center" style="width:auto; height:20px">
+        <th>Cliente</th>
+        <th>Pédido</th>
+        <th>Fecha de entrega</th>
+
+        <tr>
+            <td>Cliente A</td>
+            <td>Descripción del pédido</td>
+            <td><input type="date" id="fecha1" name="fecha1"><br></td>
+        </tr>
+        <tr>
+            <td>Cliente B</td>
+            <td>Descripción del pédido</td>
+            <td><input type="date" id="fecha1" name="fecha1"><br></td>
+        </tr>
+        <tr>
+            <td>Cliente C</td>
+            <td>Descripción del pédido</td>
+            <td><input type="date" id="fecha1" name="fecha1"><br></td>
+        </tr>
+        <tr>
+            <td>Cliente D</td>
+            <td>Descripción del pédido</td>
+            <td><input type="date" id="fecha1" name="fecha1"><br></td>
+        </tr>
+        <br><br>
+    </table>
+    <br><br>
+
+    <p align="center"><a href="./SweetCake.html">
+        <!--Agregamos un botón para cerrar sesión-->
+        <input type="button" value="Cerrar sesión">
+    </a></p>
+
+
+
+
+
+
+    <!--Pie de página-->
+<footer>
+    <img src="./social.png" alt="social" width="15%" height="15%">
+    <h5>Dirección: Rue de l'amour #120A Chapultepec CDMX Teléfono: 4441234567 Horario de atención: 9:00 - 18:00 Lunes a Sábados</h5>
+    <h6>Todos los derechos reservados</h6>
+</footer>
+    
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Cake</title>
+    <style>
+       
+        /*Encabezado*/
+        header {
+            background-color: rgb(220, 176, 228);
+            padding: 1px;
+            text-align: center;
+            font-size: 28px;
+            color: rgb(0, 0, 0);
+        }
+
+        /*Pie de página*/
+        footer {
+            background-color: rgb(217, 255, 127);
+            padding: 15px;
+            text-align: center;
+            color: black;
+        }
+    </style>
+</head>
+
+<!--Cuerpo de la página-->
+<body>
+    <header>
+        <img src="./logofinal2.png" alt="logo" width="120" height="100" align="left" >
+        <img src="./logofinal2.png" alt="logo" width="120" height="100" align="right">
+        <h1>Sweet Cake</h1>
+        <h4>¡Atrevete a probar los mejores pasteles de México!</h4>
+        <h4>¡Arma el tuyo!</h4>
+    </header>
+   <h2 align="center">Sabores Principales</h2> 
+   <h2 align="right"><a href="./login.html">Login</a></h2>
+   
+   <br><br>
+   <table border="1" align="center" style="width:auto; height:20px">
+       <tr>
+           <td><img src="./oreo.jpg" alt="Oreo" align="center" width="200px" height="150px"><br><h3 align="center">Oreo $150</h3></td>
+           <td><img src="./crunch.jpg" alt="Crunch" align="center" width="200px" height="150px"><br><h3 align="center">Crunch $200</h3></td>
+           <td><img src="./carlosv.png" alt="CarlosV" align="center" width="200px" height="150px"><br><h3 align="center">Carlos V $180</h3></td>
+           <td><img src="./cajeta.png" alt="Cajeta" align="center" width="200px" height="150px"><br><h3 align="center">Cajeta $160</h3></td>
+       </tr>
+       <tr>
+        <td><img src="./nesquik.jpg" alt="Nesquik" align="center" width="200px" height="150px"><br><h3 align="center">Nesquik $250</h3></td>
+        <td><img src="./abuelita.png" alt="Abuelita" align="center" width="200px" height="150px"><br><h3 align="center">Chocolate Abuelita $200</h3></td>
+        <td><img src="./vainilla.jpg" alt="Vainilla" align="center" width="200px" height="150px"><br><h3 align="center">Vainilla $100</h3></td>
+        <td><img src="./tresleches.jpg" alt="TresLeches" align="center" width="200px" height="150px"><br><h3 align="center">Tres leches $300</h3></td>
+       </tr>
+   </table>
+   <br><br>
+
+   <hr size="2px" color="black">
+   <h2 align="center">¡Adorna con lo que más te guste!</h2>
+   <table border="1" align="center" style="width:auto; height:20px">
+    <tr>
+        <td><img src="./chispas.jpeg" alt="chispas" align="center" width="200px" height="150px"><br><h3 align="center">Chispas $30</h3></td>
+        <td><img src="./kranky.jpg" alt="kranky" align="center" width="200px" height="150px"><br><h3 align="center">Kranky $50</h3></td>
+        <td><img src="./mms.jpg" alt="mms" align="center" width="200px" height="150px"><br><h3 align="center">M&M 60</h3></td>
+        <td><img src="./pasas.jpg" alt="pasas" align="center" width="200px" height="150px"><br><h3 align="center">Pasas $40</h3></td>
+    </tr>
+    <tr>
+     <td><img src="./gomitas.jpg" alt="gomitas" align="center" width="200px" height="150px"><br><h3 align="center">Gomitas $50</h3></td>
+     <td><img src="./chocsolido.jpg" alt="solido" align="center" width="200px" height="150px"><br><h3 align="center">Chocolate Sólido $70</h3></td>
+     <td><img src="./crema.jpg" alt="crema" align="center" width="200px" height="150px"><br><h3 align="center">Crema batida $80</h3></td>
+     <td><img src="./Nueces.jpg" alt="nueces" align="center" width="200px" height="150px"><br><h3 align="center">Nueces $100</h3></td>
+    </tr>
+</table>
+<br><br>
+
+<hr size="2px" color="black">
+<h2 align="center">Ahora te toca elegir...</h2>
+<form action="OrdenPastel.js">
+    
+    <h3>Datos de Contacto</h3>
+    <label for="nombre">Introduce tu nombre</label><br>
+    <input type="text" id="nombre" name="nombre" placeholder="Nombre"><br>
+    <label for="tel">Introduce tu teléfono</label><br>
+    <input type="text" id="tel" name="tel" placeholder="Teléfono"><br>
+    <label for="correo">Introduce tu correo electrónico</label><br>
+    <input type="text" id="correo" name="correo" placeholder="Correo"><br>
+    
+    <h3>Selecciona tu sabor principal</h3>
+    <input type="checkbox" id="oreo" name="oreo" value="oreo">
+    <label for="oreo">Oreo</label><br>
+    <input type="checkbox" id="crunch" name="crunch" value="crunch">
+    <label for="crunch">Crunch</label><br>
+    <input type="checkbox" id="CarlosV" name="carlosv" value="CarlosV">
+    <label for="CarlosV">Carlos V</label><br>
+    <input type="checkbox" id="Cajeta" name="Cajeta" value="Cajeta">
+    <label for="Cajeta">Cajeta</label><br>
+    <input type="checkbox" id="Nesquik" name="Nesquik" value="Nesquik">
+    <label for="Nesquik">Nesquik</label><br>
+    <input type="checkbox" id="abuelita" name="abuelita" value="abuelita">
+    <label for="abuelita">Chocolate Abuelita</label><br>
+    <input type="checkbox" id="Vainilla" name="Vainilla" value="Vainilla">
+    <label for="Vainilla">Vainilla</label><br>
+    <input type="checkbox" id="TresLeches" name="TresLeches" value="TresLeches">
+    <label for="TresLeches">Tres Leches</label><br>
+
+    <h3>Selecciona tu complemento</h3>
+    <input type="checkbox" id="Chispas" name="Chispas" value="Chispas">
+    <label for="Chispas">Chispas</label><br>
+    <input type="checkbox" id="Kranky" name="Kranky" value="Kranky">
+    <label for="Kranky">Kranky</label><br>
+    <input type="checkbox" id="MMs" name="MMs" value="MMs">
+    <label for="MMs">M&Ms</label><br>
+    <input type="checkbox" id="Pasas" name="Pasas" value="Pasas">
+    <label for="Pasas">Pasas</label><br>
+    <input type="checkbox" id="Gomitas" name="Gomitas" value="Gomitas">
+    <label for="Gomitas">Gomitas</label><br>
+    <input type="checkbox" id="Chocolate" name="Chocolate" value="Chocolate">
+    <label for="Chocolate">Chocolate sólido</label><br>
+    <input type="checkbox" id="Crema" name="Crema" value="Crema">
+    <label for="Crema">Crema batida</label><br>
+    <input type="checkbox" id="Nueces" name="Nueces" value="Nueces">
+    <label for="Nueces">Nueces</label><br><br>
+
+    <input type="reset">
+    <!--Ponemos el link del boton con la etiqueta a-->
+    <a href="./Pago.html">
+        <!--Agregamos un botón-->
+        <input type="button" value="Hacer Pedido">
+    </a>
+    <br><br><br>
+
+</form>
+
+<!--Pie de página-->
+<footer>
+    <img src="./social.png" alt="social" width="15%" height="15%">
+    <h5>Dirección: Rue de l'amour #120A Chapultepec CDMX Teléfono: 4441234567 Horario de atención: 9:00 - 18:00 Lunes a Sábados</h5>
+    <h6>Todos los derechos reservados</h6>
+</footer>
+    
+</body>
+</html>
